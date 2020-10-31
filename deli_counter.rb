@@ -12,13 +12,13 @@ def line(array)
      until x == array.length do
        x += 1
       line += "#{x + 1}. #{array[x]} "
-      
+
      end
      puts line
   end
   end
 
 
-def take_a_number(katz_deli, name)
+def take_a_number(array, name)
 
 end
