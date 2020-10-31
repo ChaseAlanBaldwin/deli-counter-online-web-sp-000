@@ -10,7 +10,7 @@ def line(array)
     array.unshift("The line is currently: ")
     
     end
-    
+
   end
 
 #    puts line + "#{x}. #{array[x]}"
