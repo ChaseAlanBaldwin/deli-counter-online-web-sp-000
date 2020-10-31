@@ -7,7 +7,6 @@ def line(array)
   if array.length === 0
     puts "The line is currently empty."
   elsif array.length > 0
-    lastElement = array[array.length - 1]
      until x == array.length do
       line += "#{x + 1}. #{array[x]} "
       x += 1
