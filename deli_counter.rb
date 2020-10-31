@@ -6,7 +6,6 @@ def line(array)
   line = ""
   if array.length === 0
     puts "The line is currently empty."
-  end
   elsif array.length > 0
     array.unshift("The line is currently: ")
     puts array
