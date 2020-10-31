@@ -9,11 +9,6 @@ def line(array)
   x = 1
   line = ""
 
-  until x === array.length do
-    line += "#{x}. #{array[x]}"
-    x += 1
-  end
-
   puts line
 end
 
