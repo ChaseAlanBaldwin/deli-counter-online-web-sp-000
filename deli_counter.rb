@@ -10,8 +10,9 @@ def line(array)
     lastElement = array[array.length - 1]
     array.pop()
      until x == array.length do
+       x += 1
       line += "#{x + 1}. #{array[x]} "
-      x += 1
+      
      end
      puts line
   end
