@@ -8,7 +8,7 @@ def line(array)
     puts "The line is currently empty."
   elsif array.length > 0
     until x > array.length do
-      puts line + "#{x}. #{array[x]}"
+      line += "#{x}. #{array[x]}"
       x += 1
     end
   end
