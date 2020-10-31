@@ -3,12 +3,12 @@ katz_deli = []
 
 def line(array)
   x = 0
-  line = " "
+  line = "The line is currently: "
   if array.length === 0
     puts "The line is currently empty."
   elsif array.length > 0
     until x > array.length do
-      line += "#{x}. #{array[x]}"
+      line += "#{x}. #{array[x]} "
       x += 1
     end
     puts line
