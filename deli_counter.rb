@@ -8,7 +8,7 @@ def line(array)
     puts "The line is currently empty."
   elsif array.length > 0
     array.unshift("The line is currently: ")
-    
+    puts array
     end
 
   end
