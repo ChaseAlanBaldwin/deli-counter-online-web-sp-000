@@ -7,10 +7,10 @@ def line(array)
   if array.length === 0
     puts "The line is currently empty."
   end
-  #elsif array.length > 0
+  elsif array.length > 0
     array.unshift("The line is currently: ")
     puts array
-    
+  end
 
   end
 
@@ -21,7 +21,6 @@ def line(array)
 # end
 # puts line
 
-end
 
 def take_a_number(katz_deli, name)
 
