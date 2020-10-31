@@ -8,7 +8,7 @@ def line(array)
     puts "The line is currently empty."
   elsif array.length > 0
      until x == array.length do  # iterates through the array
-      line += "#{x + 1}. #{array[x]} "
+      line += "#{x + 1}. #{array[x]} " # adds line post. and name to line variable 
       x += 1
      end
      puts line.delete_suffix(' ') # removes back unnesscary final whitespace that was causing tests to fail
