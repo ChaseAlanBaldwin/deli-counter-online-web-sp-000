@@ -7,10 +7,13 @@ def line(array)
   if array.length === 0
     puts "The line is currently empty."
   elsif array.length > 0
-    puts line + "#{x}. #{array[x]}"
+    until x > array.length do 
+      puts line + "#{x}. #{array[x]}"
+      x += 1
+    end
   end
 
-
+#    puts line + "#{x}. #{array[x]}"
 
 end
 
