@@ -22,5 +22,7 @@ def take_a_number(array, name)
  if array.length === 0
     array.push(name)
     puts "Welcome, #{name}. You are number 1 in line."
+  elsif
+    array.push(name)
   end
 end
