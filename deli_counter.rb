@@ -11,6 +11,7 @@ def line(array)
       line += "#{x}. #{array[x]}"
       x += 1
     end
+    puts line
   end
 
 #    puts line + "#{x}. #{array[x]}"
