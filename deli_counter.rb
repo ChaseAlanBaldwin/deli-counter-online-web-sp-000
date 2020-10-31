@@ -12,7 +12,7 @@ def line(array)
       line += "#{x + 1}. #{array[x]} "
       x += 1
      end
-     puts line
+     puts line.delete_suffix(' ')
   end
   end
 
